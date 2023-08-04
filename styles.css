@@ -20,6 +20,25 @@ body {
 }
 
 
+.image{
+    animation: image ease-in 1.3s infinite alternate;
+}
+
+@keyframes image{
+    0%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+.image:hover{
+    scale: 1.05;
+    animation: none;
+}
+
+
 p,h1,h2{
     font-family: 'Montserrat', sans-serif;
     color: black;
@@ -31,4 +50,5 @@ p,h1,h2{
     background-color: white;
     padding: 30px;
 }
+
 

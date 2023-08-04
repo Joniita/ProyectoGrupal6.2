@@ -24,9 +24,11 @@ p,h1,h2{
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
+
 .contenedor {
     width: 50%;
     margin: auto;
     background-color: white;
     padding: 30px;
 }
+
